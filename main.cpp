@@ -125,5 +125,9 @@ int main() {
     // Visited everywhere and remove them
     history.findRegularPeople();
 
+    cout << "Everybody in the city after removing people who visited all locations" << endl;
+
+    cout << history;
+
     return 0;
 }
